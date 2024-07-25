@@ -1,15 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --stone100: #f3e6d8;
+    --stone150: #e4ded8;
+    --stone600: #5f574e;
+    --stone900: #302d2c;
+
+    --brown800: #854632;
+
+    --rose800: #7b284f;
+    --rose50: #fff5fa;
+
+    --fontYoung: "Young Serif", serif;
+    --fontOutfit: "Outfit", sans-serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    width: 90vw;
+    font-family: var(--fontOutfit);
+}
+
+main {
+    padding: 0px 30px;
+}
+
 .image {
+    height: 175px;
+    width: 100%;
     background: coral url(../images/image-omelette.jpeg) no-repeat;
-    background-size: size;
+    background-size: cover;
 }
 
 h1 {
-    padding: 10px;
+    color: var(--stone900);
+    font-family: var(--fontYoung);
+    font-size: 38px;
+    font-weight: 300;
+    padding: 0px 30px;
     margin-top: 20px;
+}
+
+p {
+    color: var(--stone600);
+    font-family: var(--fontOutfit);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header > p {
+    padding: 0px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section.time {
+    width: 85%;
+    background-color: var(--rose50);
+    font-family: var(--fontOutfit);
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section.time > h2.preparation {
+    color: var(--rose800);
+    font-family: var(--fontOutfit);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section > h2 {
+    color: var(--brown800);
+    font-family: var(--fontYoung);
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    position:relative; 
+    color: #5f574e;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+ul li::marker {
+    position: absolute;
+    left: 0; 
+    top: 3px; 
+
+    color: var(--stone600);
+    font-size: 0.6em;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    position:relative; 
+    color: #5f574e;
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+ol li::marker {
+    position: absolute;
+    left: 0; 
+    top: 3px; 
+
+    color: var(--brown800);
+    font-family: var(--fontOutfit);
+    font-weight: 600;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid var(--stone150);
+    margin: 25px 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+tr {
+    border-bottom: 2px solid var(--stone150);
+    line-height: 40px;
+}
+
+tr.ultimo {
+    border: none;
+}
+
+th {
+    width: 200px;
+    color: var(--stone600);
+    font-weight: 400;
+    text-align: left;
+    padding-left: 30px;
+    border-bottom: #302d2c;
+}
+
+td {
+    color: var(--brown800);
+    font-weight: 600;
+    width: calc(100% - 50%);
+}
+
+section.nutrition {
+    padding-bottom: 50px;
 }
