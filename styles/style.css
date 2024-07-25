@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.image {
+    background: coral url(../images/image-omelette.jpeg) no-repeat;
+    background-size: size;
+}
+
+h1 {
+    padding: 10px;
+    margin-top: 20px;
+}
