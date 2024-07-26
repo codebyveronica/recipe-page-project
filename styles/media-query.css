@@ -13,7 +13,7 @@
 @media screen and (min-width: 600px) {
     body {
         background-color: var(--stone100);
-        margin: 75px;
+        margin-top: 100px;
     }
 
     header, main {
@@ -41,6 +41,7 @@
     }
 
     .image {
+        height: 300px;
         border-radius: 10px;
     }
 
