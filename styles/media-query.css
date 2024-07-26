@@ -13,7 +13,7 @@
 @media screen and (min-width: 600px) {
     body {
         background-color: var(--stone100);
-        margin-top: 125px;
+        margin-top: 75px;
     }
 
     header, main {
