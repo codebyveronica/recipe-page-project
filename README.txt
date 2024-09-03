@@ -1,30 +1,30 @@
-## Visão geral
+## Overview
 
 ###Links
 
-- URL da solução: https://github.com/codebyveronica/recipe-page-project
-- URL do site ativo: https://codebyveronica.github.io/recipe-page-project/
+- Solution URL: https://github.com/codebyveronica/recipe-page-project
+- Active website URL: https://codebyveronica.github.io/recipe-page-project/
 
-## Meu processo
+## My process
 
-### Construído com
+### Built with
 
-- Marcação HTML5 semântica
-- Propriedades personalizadas CSS
-- Fluxo de trabalho voltado para dispositivos móveis
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
 
-### O que aprendi
+### What I learned
 
-Aprendi muito sobre semântica HTML. Enquanto fazia o projeto, fiz diversas pesquisas sobre todas as tags e os melhores casos de uso para elas. Então tentei aplicar da melhor forma possível no projeto. Acho que isso me ajudou a aprender sobre a semântica.
+I learned a lot about HTML semantics. While doing the project, I did a lot of research on all the tags and the best use cases for them. So I tried to apply it in the best way possible in the project. I think this helped me learn about semantics.
 
-### Desenvolvimento contínuo
+### Continuous development
 
-Quero continuar aprendendo sobre a semântica do HTML para ter um conhecimento sólido sobre isso e poder usar tags sem dúvida se é o uso correto ou não. Também quero aprender mais sobre CSS, sobre Flexbox e outros recursos para criar sites bonitos e otimizados.
+I want to continue learning about the semantics of HTML to have a solid understanding of it and be able to use tags without doubting whether it is the correct usage or not. I also want to learn more about CSS, Flexbox and other resources to create beautiful and optimized websites.
 
-### Recursos úteis
+### Useful resources
 
-- [W3Schools](https://www.w3schools.com) - O melhor site para aprender sobre o uso de cada tag.
+- [W3Schools](https://www.w3schools.com) - The best site to learn about the use of each tag.
 
-## Autor
+## Author
 
 - Frontend Mentor - @codebyveronica(https://www.frontendmentor.io/profile/codebyveronica)
